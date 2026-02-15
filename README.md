@@ -1,5 +1,5 @@
 
-🚀 Dodger
+# 🚀Dodger
 
 Dodger is a 2D arcade survival game built with SwiftUI + SpriteKit.
 
@@ -7,7 +7,7 @@ Avoid falling obstacles, survive as long as possible, and beat your score as dif
 
 ![Image](https://github.com/user-attachments/assets/13aaca71-2b1c-416f-98cf-1a4d584bf81d)
 
-🎮 Features
+# 🎮 Features
 
 Start screen with animated Play button
 
@@ -23,7 +23,7 @@ Collision detection & Game Over
 
 Restart system
 
-🛠 Built With
+# 🛠 Built With
 
 Swift
 
