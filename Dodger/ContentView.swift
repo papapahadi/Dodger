@@ -1,21 +1,18 @@
-//
-//  ContentView.swift
-//  Dodger
-//
-//  Created by Jatin Singh on 15/02/26.
-//
-
 import SwiftUI
+import SpriteKit
 
 struct ContentView: View {
+    
+    var scene: SKScene {
+        let scene = StartScene(size: UIScreen.main.bounds.size)
+        scene.scaleMode = .resizeFill
+
+        return scene
+    }
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        SpriteView(scene: scene)
+            .ignoresSafeArea()
     }
 }
 
